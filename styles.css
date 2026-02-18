@@ -542,37 +542,30 @@ p:last-child {
 
 /* ===== Pineapple Section ===== */
 .pineapple {
-  padding: 4rem 1.5rem;
-  background: var(--color-dark-bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 4rem 1rem;
+  background-color: #1a1f35;
 }
 
 .pineapple__container {
-  max-width: var(--max-width);
-  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .pineapple__image {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   height: auto;
-  margin: 0 auto;
-  display: block;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-lg);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* ===== Footer ===== */
-.footer {
-  padding: 2rem 1.5rem;
-  background: var(--color-dark-bg);
-  text-align: center;
-}
+@media (max-width: 768px) {
+  .pineapple {
+    padding: 2rem 1rem;
+  }
 
-.footer__copy {
-  margin: 0;
-  font-size: 0.875rem;
-  color: var(--color-muted);
+  .pineapple__image {
+    max-width: 100%;
+  }
 }
