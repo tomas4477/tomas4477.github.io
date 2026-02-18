@@ -540,6 +540,30 @@ p:last-child {
   }
 }
 
+/* ===== Pineapple Section ===== */
+.pineapple {
+  padding: 4rem 1.5rem;
+  background: var(--color-dark-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pineapple__container {
+  max-width: var(--max-width);
+  width: 100%;
+}
+
+.pineapple__image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
 /* ===== Footer ===== */
 .footer {
   padding: 2rem 1.5rem;
